@@ -1,0 +1,16 @@
+@import "Temas/Variaveis.module.scss";
+
+.main {
+  background-color: $background-brown;
+  min-height: 100vh
+}
+
+.h1{
+  padding: 2rem 10rem;
+  font-size: 2rem;
+  color: white;
+  &__buscador{
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+  }
+}

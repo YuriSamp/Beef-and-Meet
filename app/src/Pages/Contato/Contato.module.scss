@@ -1,0 +1,78 @@
+@import "Temas/Variaveis.module.scss";
+
+.container {
+  background-color: $background-brown ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__titulo {
+    color: white;
+    margin: 0;
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+
+  &__subtitulo {
+    color: white;
+    margin: 0;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+  }
+
+  &__inputdiv {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  &__formdiv1{
+    display: flex;
+  }
+
+  &__inputpadrao {
+    margin: 0.3rem 2rem 1.5rem 0;
+    padding: 0.8rem 1.5rem;
+    width: 400px;
+    border: solid 1.5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #9e8e8e;
+  }
+
+  &__inputdiferente{
+    margin: 0;
+    width: 930px;
+    height: 150px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #9e8e8e;
+    resize: none;
+  }
+  
+  &__labels{
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  &__botao{
+    margin-top: 1rem;
+    width: 6rem;
+    height: 3rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #9e8e8e;
+    border-radius: 0.2rem;
+    border: none;
+    &:hover {
+      cursor: pointer;
+      background-color: #0d1b49;
+      color: white;
+    }
+  }
+  &__titulo2{
+    color: white;
+    margin: 0;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "title" : "MasterChef Journey",
+    "description": "Junior Ribs com nosso molho Barbecue de Framboesa, porção de camarões crocantes, com temperos Outback e raiz-forte, além dos novos croquetes Outback e acompanha fritas.",
+    "photo": "/Assets/Pratos/Masterchef-Journey.png",
+    "id": 1,
+    "category": {
+      "id": 1,
+      "label": "Carnes"
+    }
+  },
+  {
+    "title" : "Shrimp Adventure",
+    "description": "Generosa porção de camarões crocantes para compartilhar com os amigos, temperada com os 17 temperos secretos do Outback e raiz-forte. Acompanha uma fatia de limão siciliano grelhado e maionese com toque de pimenta jalapeño.",
+    "photo": "/Assets/Pratos/Shrimp-Adventure.png",
+    "id": 2,
+    "category": {
+      "id": 2,
+      "label": "Peixes"
+    }
+  },
+  {
+    "title" : "Victoria Filet",
+    "description": "Um corte de filet mignon com cerca de 200g, servido no estilo que preferir: com temperos Outback ou com ervas finas. Servido com molho Merlot. Preparado na chapa no ponto que você preferir.",
+    "photo": "/Assets/Pratos/Victorias-Filet.png",
+    "id": 3,
+    "category": {
+      "id": 1,
+      "label": "Carnes"
+    }
+  },
+  {
+    "title" : "The Outback Special",
+    "description": "Um steak especial: 225g nosso clássico miolo de alcatra com sabor acentuado pelos temperos do Outback. Preparado na chapa no ponto que você preferir.",
+    "photo": "/Assets/Pratos/The-Outback-Special.png",
+    "id": 4,
+    "category": {
+      "id": 1,
+      "label": "Carnes"
+    }
+  },
+  {
+    "title" : "Rockhampton Ribeye",
+    "description": "325g da parte mais gostosa da costela bovina, com o bold flavour inconfundível da nossa mistura secreta de temperos. Na chapa, com tempero tradicional, ou em chama aberta, com o tempero Chargrill condimentado com toque de café.",
+    "photo": "/Assets/Pratos/Rockhampton-Ribeye-Steak.png",
+    "id": 5,
+    "category": {
+      "id": 1,
+      "label": "Carnes"
+    }
+  },
+  {
+    "title" : "The Porterhouse",
+    "description": "Cerca de 500g de um corte nobre e macio em formato de T: o encontro delicioso de contra-filet e filet mignon. Preparado na chapa com um mix dos nossos temperos secretos.",
+    "photo": "/Assets/Pratos/The-Porterhouse.jpg",
+    "id": 6,
+    "category": {
+      "id": 1,
+      "label": "Carnes"
+    }
+  },
+  {
+    "title" : "New York Strip Steak",
+    "description": "375g do corte nobre do contra-filet, perfeitamente temperado e preparado na chapa",
+    "photo": "/Assets/Pratos/new_york_strip_steak.jpg",
+    "id": 7,
+    "category": {
+      "id": 1,
+      "label": "Carnes"
+    }
+  },
+  {
+    "title" : "Fish Chips",
+    "description": "Para celebrar nossas raízes britânicas, cerca de 180g de cortes de filet de peixe empanados à mão como toque Outback, que confere uma crocância única. Servido com molho Tartare.",
+    "photo": "/Assets/Pratos/Fish-n-Chips.jpg",
+    "id": 8,
+    "category": {
+      "id": 2,
+      "label": "Peixes"
+    }
+  },
+  {
+    "title" : "Grilled Fish & Shrimp Scampi",
+    "description": "Para honrar a paixão aussie pelos frutos do mar, cerca de 240g da nossa tilápia preparada na chapa e coberta com camarões ao molho Scampi.",
+    "photo": "/Assets/Pratos/grilled_fish_shrimp_scampi.jpg",
+    "id": 9,
+    "category": {
+      "id": 2,
+      "label": "Peixes"
+    }
+  },
+  {
+    "title" : "South American Salmon",
+    "description": "Cerca de 200g do nosso clássico salmão grelhado na versão Outback e servido com molho Tartare.",
+    "photo": "/Assets/Pratos/Outback_Salmao_grelhado.jpg",
+    "id": 10,
+    "category": {
+      "id": 2,
+      "label": "Peixes"
+    }
+  },
+  {
+    "title" : "Chicken On The Barbie",
+    "description": "Um suculento peito de frango de cerca de 230g grelhado em chama aberta, servido com o molho Barbecue.",
+    "photo": "/Assets/Pratos/Chicken-on-the-Barbie.jpg",
+    "id": 11,
+    "category": {
+      "id": 3,
+      "label": "Frangos"
+    }
+  },
+  {
+    "title" : "Tilapia Filet",
+    "description": "Leveza e suculência elevadas ao topo pelos temperos no estilo Outback. Cerca de 240g da nossa tilápia preparada na chapa e servida com o delicioso molho Tartare.",
+    "photo": "/Assets/Pratos/Tilapia-Filet.jpg",
+    "id": 12,
+    "category": {
+      "id": 2,
+      "label": "Peixes"
+    }
+  },
+  {
+    "title" : "Chicken Fingers Jumbo",
+    "description": "4 pedaços crocantes de peito de frango empanado para você mergulhar no delicioso molho Honey Mustard. Mais saboroso ainda no estilo Tasmanian: light, medium ou hot.",
+    "photo": "/Assets/Pratos/Chicken-Fingers-Jumbo.png",
+    "id": 13,
+    "category": {
+      "id": 3,
+      "label": "Frangos"
+    }
+  },
+  {
+    "title" : "Cinnamon Oblivion",
+    "description": "A sobremesa que nossos waiters adoram explicar. Contém nozes ou derivado de nozes.",
+    "photo": "/Assets/Pratos/Cinnamon-Oblivion.jpg",
+    "id": 14,
+    "category": {
+      "id": 4,
+      "label": "Sobremesas"
+    }
+  },
+  {
+    "title" : "Smores Outback",
+    "description": "Uma sobremesa quente, que combina cookies com gotas de chocolate, uma surpreendente pasta cremosa de Kit Kat, marshmallow gratinado, nossa calda de chocolate e pedaços de Kit Kat para finalizar.",
+    "photo": "/Assets/Pratos/Smores.png",
+    "id": 15,
+    "category": {
+      "id": 4,
+      "label": "Sobremesas"
+    }
+  },
+  {
+    "title" : "Chocolate Thunder From Down Under",
+    "description": "Nosso brownie exclusivo e quentinho com sorvete de baunilha e deliciosa calda de chocolate preparada diariamente no Outback. Finalizado com chantilly e raspas de chocolate.",
+    "photo": "/Assets/Pratos/Chocolate-Thunder-From-Down-Under.png",
+    "id": 16,
+    "category": {
+      "id": 4,
+      "label": "Sobremesas"
+    }
+  },
+  {
+    "title" : "Havanna Thunder",
+    "description": "O nosso brownie, com nozes pecans, agora em uma versão de doce de leite Havanna. Servido com sorvete de baunilha, chantilly, crumble de biscoito e finalizado com a deliciosa calda de doce de leite Havanna.",
+    "photo": "/Assets/Pratos/havanna_thunder_sobremesa.jpg",
+    "id": 17,
+    "category": {
+      "id": 4,
+      "label": "Sobremesas"
+    }
+  },
+  {
+    "title" : "Super Milkshake",
+    "description": "O delicioso milkshake, no sabor chocolate ou morango, servido na caneca congelada de 340 ml.",
+    "photo": "/Assets/Pratos/Milkshake.jpg",
+    "id": 18,
+    "category": {
+      "id": 4,
+      "label": "Sobremesas"
+    }
+  }
+]

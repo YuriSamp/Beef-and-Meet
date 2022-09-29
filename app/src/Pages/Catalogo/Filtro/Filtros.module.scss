@@ -1,0 +1,25 @@
+.filtros {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  &__filtro {
+    align-items: center;
+    background-color: #9e8e8e;
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: bold;
+    height: 40px;
+    justify-content: center;
+    width: 150px;
+    &--ativo {
+      background-color: #0d1b49;
+      color: white;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

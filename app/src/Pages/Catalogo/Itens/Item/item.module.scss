@@ -1,0 +1,26 @@
+ $white: rgb(240, 240, 240);
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.item{
+  display: flex;
+  &__imagem{
+    border-radius: 0.5rem;
+  }
+  &__descricao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    &__titulo{
+      color: $white;
+      font-size: 2rem;
+      margin: 0;
+    }
+    &__detalhada{
+      color: $white;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      font-size: 1.2rem;
+    }
+  }
+}
