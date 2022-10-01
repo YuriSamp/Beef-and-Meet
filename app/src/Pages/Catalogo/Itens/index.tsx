@@ -1,7 +1,7 @@
-import styles from './itens.module.scss'
-import Product from 'data/Products.json'
-import { useState, useEffect } from 'react'
-import { Item } from './Item'
+import styles from './itens.module.scss';
+import Product from 'data/Products.json';
+import { useState, useEffect } from 'react';
+import { Item } from './Item';
 
 interface Props {
   busca: string,
@@ -33,5 +33,5 @@ export const Itens = (props: Props) => {
         <Item key={item.id} {...item} />
       ))}
     </div>
-  )
-}
+  );
+};

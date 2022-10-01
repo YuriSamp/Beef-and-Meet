@@ -2,8 +2,8 @@
 
 .navbar {
   display: flex;
-  padding: 1rem 10rem;
-  gap: 47em;
+  padding: 3rem 10rem;
+  gap: 50em;
   background-color: $background-brown ;
   &__pages{
     display: flex;
@@ -20,20 +20,6 @@
   &__login{
     display: flex;
   }
-}
-
-.svg{
-  color: white;
-  width: 30px;
-  height: 30px;
-  align-self: center;
-  padding-right: 10px;
-}
-
-.separador{
-  font-size: 2rem;
-  padding: 0 1rem;
-  color: white;
 }
 
 .header{

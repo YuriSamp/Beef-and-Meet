@@ -1,26 +1,33 @@
 import styles from './Contato.module.scss';
 
 export const Contato = () => {
+
+  const EnviarFormulario = (e:any) => {
+    e.preventDefault();
+    return alert('obrigado pelo feedback');
+  };
+
+
   return (
     <section>
       <div className={styles.container} >
         <h1 className={styles.container__titulo}>Preencha o formulario</h1>
         <p className={styles.container__subtitulo}>Nos envie sua dúvida, sugestão ou elogio, seu contato vale muito para nós. Prometemos responder o mais breve possível.</p>
-        <form>
+        <form onSubmit={EnviarFormulario}>
           <div className={styles.container__formdiv1}>
             <div className={styles.container__inputdiv}>
               <label htmlFor="nome" className={styles.container__labels}> Nome</label>
-              <input id='nome' className={styles.container__inputpadrao} name='nome' type={'text'} />
+              <input id='nome' className={styles.container__inputpadrao} name='nome' type={'text'} required/>
             </div>
             <div className={styles.container__inputdiv}>
               <label htmlFor="email" className={styles.container__labels}> E-mail</label>
-              <input id='email' className={styles.container__inputpadrao} name='email' type={'email'} />
+              <input id='email' className={styles.container__inputpadrao} name='email' type={'email'} required />
             </div>
           </div>
           <div className={styles.container__formdiv1}>
             <div className={styles.container__inputdiv}>
               <label htmlFor='Telefone' className={styles.container__labels}>Telefone</label>
-              <input id='Telefone' className={styles.container__inputpadrao} name='Telefone' type={'tel'} />
+              <input id='Telefone' className={styles.container__inputpadrao} name='Telefone' type={'tel'}  />
             </div>
             <div className={styles.container__inputdiv}>
               <label htmlFor='mensagem' className={styles.container__labels}> Sobre o que gostaria de falar? </label>

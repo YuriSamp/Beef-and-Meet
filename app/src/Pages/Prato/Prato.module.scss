@@ -1,0 +1,43 @@
+@import "Temas/Variaveis.module.scss";
+
+.prato{
+  background-color: $background-brown;
+}
+
+.voltar {
+  padding: 3rem 0 0 10rem ;
+  background-color: transparent;
+  border: none;
+  color: #d73b3b ;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.titulo {
+  font-size: 3rem;
+  color: #fefefe;
+}
+.imagem {
+  width: 600px;
+  img {
+    border-radius: 8px;
+    width: 100%;
+  }
+}
+.conteudo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  &__descricao {
+    width: 50%;
+    color: #fefefe;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

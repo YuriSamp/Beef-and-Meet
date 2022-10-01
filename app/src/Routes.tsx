@@ -3,6 +3,7 @@ import { NavBar } from 'Components/NavBar';
 import { Catalogo } from 'Pages/Catalogo';
 import { Contato } from 'Pages/Contato';
 import { Home } from 'Pages/Home';
+import { Prato } from 'Pages/Prato';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export const AppRouter = () => {
@@ -15,10 +16,8 @@ export const AppRouter = () => {
             <Route index element={<Home/>}/>
             <Route path='cardapio' element={<Catalogo/>}/>
             <Route path='contato' element={<Contato/>}/>
-            {/* <Route path='cardapio' element={<Catalogo/>}/>
-            <Route path='cardapio' element={<Catalogo/>}/>
-            <Route path='cardapio' element={<Catalogo/>}/> */}
           </Route>
+          <Route path='prato/:id' element={<Prato/>}/>
         </Routes>
         <Footer/>
       </Router>
