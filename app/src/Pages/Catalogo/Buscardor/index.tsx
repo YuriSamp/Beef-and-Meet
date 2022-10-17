@@ -1,5 +1,5 @@
 import {CgSearch} from 'react-icons/cg';
-import styles from './buscador.module.scss'
+import styles from './buscador.module.scss';
 
 interface Props{
   busca: string
@@ -14,5 +14,5 @@ export const Buscador = ({busca,setBusca} : Props ) => {
       </input>
       <CgSearch/>
     </div>
-  )  
-}
+  ) ; 
+};

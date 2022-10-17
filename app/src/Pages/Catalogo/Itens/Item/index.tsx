@@ -11,8 +11,8 @@ export const Item = (props: PratoI) => {
         <img className={styles.item__imagem} src={photo} alt={title} />
       </div>
       <div className={styles.item__descricao}>
-          <h2 className={styles.item__descricao__titulo}>{title}</h2>
-          <p className={styles.item__descricao__detalhada}>{description}</p>
+        <h2 className={styles.item__descricao__titulo}>{title}</h2>
+        <p className={styles.item__descricao__detalhada}>{description}</p>
       </div>
     </div>
   );
