@@ -16,6 +16,8 @@ Um pequeno Preview do layout
 
 Minha maior dificuldade nesse projeto foi dominar o metodo filter do array em javascript, visto foi preciso usar algumas vezes durante o projeto, também foi o meu primeiro contato com a blibiotca React-Router-Dom para um SPA com diversos componentes
 
+## Quais dependencias usei no desenolvimento?
+
 <ul>
   <li>normalize.css</li>
   <li>react-icons</li>
