@@ -4,13 +4,22 @@
 
 Um app de uma churrascaria que desenvolvi baseado em um curso que fiz na alura, o intuito do projeto foi refazer da minha maneira o que o instrutor tinha apresentado e utilizar blibiotecas novas pra aumentar meu conhecimento no React
 
+Link para o app na Vercel: beef-and-meet.vercel.app
 
 <p align="center">
-Como ficou?
+Um pequeno Preview do layout
 </p>
 
 ![Home2](https://user-images.githubusercontent.com/103132957/193378554-bfca8dc8-280a-4ca4-a689-38842266acfe.png)
 
-![Cardapio 2](https://user-images.githubusercontent.com/103132957/193378560-f001647c-b821-418b-ab74-93f2de2eadaa.png)
+## Quais as dificuldades que enfrentei?
 
-![Contato 2](https://user-images.githubusercontent.com/103132957/193378562-a7210e78-50ef-462a-b185-ea126fe8658a.png)
+Minha maior dificuldade nesse projeto foi dominar o metodo filter do array em javascript, visto foi preciso usar algumas vezes durante o projeto, também foi o meu primeiro contato com a blibiotca React-Router-Dom para um SPA com diversos componentes
+
+<ul>
+  <li>normalize.css</li>
+  <li>react-icons</li>
+  <li>react-router-dom</li>
+  <li>sass</li>
+  <li>classnames</li>
+</ul>
