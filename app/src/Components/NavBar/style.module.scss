@@ -1,37 +1,36 @@
-@import "Temas/Variaveis.module.scss";
+@import 'Temas/Variaveis.module.scss';
 
 .navbar {
-  display: flex;
-  padding: 3rem 10rem;
-  gap: 50em;
-  background-color: $background-brown ;
-  &__pages{
+  padding: 0rem 10rem;
+  background-color: $background-brown;
+  &__pages {
     display: flex;
-    gap:2rem;
-    &__buttons{
+    gap: 2rem;
+    &__buttons {
       background: transparent;
       border: none;
       cursor: pointer;
-      font-size: 1.5rem;
+      font-size: 1.75rem;
       color: white;
-      
+    }
+    &__logo {
+      width: 130px;
     }
   }
-  &__login{
+  &__login {
     display: flex;
   }
 }
 
-.header{
-  background-image: url("/assets/banner.jpg");
+.header {
+  background-image: url('/assets/banner.jpg');
   height: 350px;
   background-size: cover;
   background-repeat: no-repeat;
-  &__titulo{
+  &__titulo {
     padding: 5rem 10rem;
     color: white;
     font-size: 4rem;
-    font-style: italic;
     min-width: 400px;
     width: 50%;
   }
